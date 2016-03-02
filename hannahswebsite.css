@@ -1,0 +1,349 @@
+/* Hannahswebsite CSS */
+
+
+body {
+	
+	/* overflow: hidden; */
+
+}
+
+footer p{
+
+	z-index: 100;
+	bottom: 0px;
+	position: fixed;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	opacity: 0.4;
+	font-size: 12px;
+
+}
+
+h4 {
+	text-transform: uppercase;
+	margin-top: 150px;
+	font-family: 'Fredoka One', cursive;
+	font-size: 50px;
+	text-align: center;
+	color: #fde4e4;
+	position: relative;
+	text-shadow: 4px 4px 2px rgba(253,228,228, 0.2);
+}
+
+.menu {
+
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	left: 10%;
+    margin-right: -50%;
+    margin-left: 50%;
+    margin-top: 20px;
+    text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	color: #414141;
+	text-decoration: none;
+
+}
+
+.menu:hover
+{
+	background-color: pink;
+	color: white;
+	cursor: pointer;
+}
+
+.nav {
+
+	position: fixed;
+	left: 50%;
+	z-index: 100;
+	
+}
+
+p {
+	
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+h5 {
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+
+#leftBorder {
+	right: auto;
+	position: fixed;
+	background: #FFEDED;
+	width: 200px;
+	z-index: 99;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	display: block;
+	transition: 0.5s;
+}
+
+#rightBorder {
+	left: auto;
+	position: fixed;
+	background: #FFEDED;
+	width: 200px;
+	z-index: 99;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	display: block;
+	transition: 0.5s;
+}
+
+#bottomBorder {
+	top: auto;
+	height: 50px;
+	position: fixed;
+	background: #FFEDED;
+	width: 100%;
+	z-index: 99;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: block;
+	transition: 0.5s;
+}
+
+#topBorder {
+	bottom: auto;
+	height: 60px;
+	position: fixed;
+	background: #FFEDED;
+	width: 100%;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: block;
+}
+
+#sign {
+	font-weight: bold;
+	color: #cccccc;
+	text-align: center;
+
+}
+
+#video {
+
+	position: absolute;
+	text-align: center;
+	margin-top: 250px;
+	height: 8%;
+	width: 200%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+}
+
+.on {
+
+	
+	background: #eefffd;
+	color: #ffa2ad;
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+
+#aboutme {
+
+	position: absolute;
+	text-align: center;
+	height: 8%;
+	width: 200%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+
+}
+
+.introduction {
+
+	position: relative;
+	word-wrap: break-word;
+	width: 80%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	margin-top: -150px;
+
+}
+
+h5.text{
+
+font-family: 'Montserrat', sans-serif;
+color: #979088;
+font-weight: bold;
+margin-top: 30px;
+margin-bottom: -10px;
+
+}
+
+.text {
+
+font-family: 'Cutive Mono';
+/* background: #f4f9e6; */
+width:100%;
+color: #b1a89f;
+margin-top: 20px;
+text-align: center;
+
+
+}
+
+
+
+/*
+#up {
+
+	margin-top: -50px;
+
+} */
+
+
+
+#pic {
+
+	position: absolute;
+	text-align: center;
+	margin-top: 200px;
+	height: 8%;
+	width: 200%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	
+}
+
+h6 {
+
+font-family: 'Homemade Apple', cursive;
+color: #f89d9d;
+font-size: 20px;
+padding-top: 10px;
+
+}
+
+#lan {
+
+margin-top: 50px;
+color: #b1a89f;
+
+}
+
+
+
+
+
+/* form css*/
+
+.pimg {
+
+	position: absolute;
+	text-align: center;
+	margin-top: 200px;
+	height: 8%;
+	width: 200%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	
+}
+
+
+.pimg .col-md-4 {
+
+	-moz-box-shadow: 0.5px 0.5px 2px 1px #f4f9e6;
+  -webkit-box-shadow: 0.5px 0.5px 2px 1px #f4f9e6;
+  box-shadow:         0.5px 0.5px 2px 1px #f4f9e6;
+
+}
+
+h5.pText {
+
+font-family: 'Montserrat';
+color:#fbcecc;
+	text-transform: uppercase;
+	background:#fdfde4;
+		text-shadow: 0.5px 0.5px 0.5px rgba(255,255,255, 1);
+
+}
+
+h5.pText2 {
+
+font-family: 'Montserrat';
+color: #f89d9d;
+
+}
+
+p.pText3 {
+
+color:#b1a89f;
+font-size: 9px;
+font-family: Open Sans;
+
+}
+
+h4.cText {
+
+width: 100%;
+position: relative;
+font-size:50px;
+
+
+}
+
+.cText {
+
+margin-top: 20px;
+display: block;
+
+}
+
+.down {
+
+margin-top: -300px;
+
+}
+
+
+.cWord:hover
+{
+	background-color: pink;
+	color: white;
+	cursor: pointer;
+}
+
+.info p {
+
+color:#b1a89f;
+text-align: center;
+padding: 10px;
+
+}
+
+.info {
+
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+
+}
+
+.box {
+
+	display: block;
+	border:5px solid #f1f5ef;
+	margin-top: 20px;
+
+}
+
+
